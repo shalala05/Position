@@ -1,0 +1,27 @@
+#brown
+    padding: 60px 0
+    .box
+        display: flex
+        text-align: center
+        justify-content: space-around
+        .minibox
+            background-color: #8d6d3e
+            width: 180px
+            height: 180px
+            border-radius: 90px
+            transition: 2s
+            line-height: 162px
+            h1
+                color: #ffff
+                font-size: 20px
+            &:hover
+                border-radius: 40px
+        @media screen and ( max-width: 800px )
+            .minibox
+                width: 50px
+                height: 50px
+                background-color: #c4d17d
+                line-height: 50px
+        @media screen and ( max-width: 790px )
+            display: flex
+            flex-flow: column

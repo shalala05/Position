@@ -1,0 +1,26 @@
+#orange
+    padding: 60px 0
+    .box
+        position: relative
+        .minibox
+            width: 100px
+            height: 100px
+            border: 5px solid #110e0a
+            transition: 2s
+            h1
+                color: #e08f25
+            &:hover
+                border-radius: 50px
+                border: 5px solid #e08f25
+        .box3
+            position: absolute
+            bottom: 90px
+            right: 140px
+        @media screen and ( max-width: 600px )
+            .minibox
+                background-color: #f0b541
+                width: 50px
+                height: 50px
+                h1
+                    font-size: 9px
+                    color: #ffff

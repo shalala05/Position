@@ -1,0 +1,397 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: orange;
+}
+a:hover {
+  color: black;
+}
+
+#blue {
+  padding: 0 0 130px;
+}
+#blue .box {
+  position: relative;
+}
+#blue .box .minibox {
+  background-color: #2d73e3;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+#blue .box .minibox h1 {
+  color: white;
+  padding: 10px 0 0 10px;
+}
+#blue .box .box3 {
+  position: absolute;
+  bottom: 90px;
+  left: 140px;
+}
+
+#green {
+  padding: 0 0 120px;
+}
+#green .box {
+  position: relative;
+}
+#green .box .minibox {
+  background-color: #478f71;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+#green .box .minibox h1 {
+  color: white;
+  padding: 10px 0 0 10px;
+}
+#green .box .box1 {
+  position: absolute;
+  top: 0;
+  left: 140px;
+}
+#green .box .box3 {
+  position: absolute;
+  bottom: 90px;
+  left: 140px;
+}
+
+#pink {
+  padding: 0 0 120px;
+}
+#pink .box {
+  position: relative;
+}
+#pink .box .minibox {
+  background-color: #d38fdc;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+#pink .box .minibox h1 {
+  color: white;
+  padding: 10px 0 0 10px;
+}
+#pink .box .box3 {
+  position: absolute;
+  bottom: 0;
+  left: 270px;
+}
+
+#verypink {
+  padding: 0 0 120px;
+}
+#verypink .box {
+  position: relative;
+}
+#verypink .box p {
+  font-size: 15px;
+  width: 595px;
+}
+#verypink .box .minibox {
+  background-color: #d38fdc;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+#verypink .box .minibox h1 {
+  color: white;
+  padding: 10px 0 0 10px;
+}
+#verypink .box .box1 {
+  position: absolute;
+  top: 130px;
+  right: 0;
+}
+
+#purple {
+  padding: 150px 0;
+}
+#purple .minibox {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #d09dff;
+  transition: 2s;
+}
+#purple .minibox h1 {
+  color: #8a3ac6;
+  font-size: 18px;
+}
+#purple .minibox:hover {
+  width: 150px;
+  height: 50px;
+  border: 5px solid #8a3ac6;
+}
+@media screen and (max-width: 600px) {
+  #purple .minibox {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #925ea4;
+  }
+  #purple .minibox h1 {
+    font-size: 13px;
+    color: #47b941;
+  }
+}
+@media screen and (max-width: 400px) {
+  #purple .minibox {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f1ee2c;
+    background-color: #515de4;
+  }
+  #purple .minibox h1 {
+    font-size: 9px;
+    color: white;
+  }
+}
+
+#red {
+  padding: 70px 0;
+}
+#red .minibox {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #d14040;
+  background-color: #76bce4;
+  transition: 3s;
+}
+#red .minibox h1 {
+  padding: 10px 0 0 10px;
+  font-size: 18px;
+  color: white;
+}
+#red .minibox:hover {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #308434;
+}
+@media screen and (max-width: 600px) {
+  #red .minibox {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #252714;
+    background-color: #39c534;
+  }
+  #red .minibox h1 {
+    font-size: 35px;
+  }
+}
+
+#button {
+  padding: 60px 0;
+}
+#button .btn {
+  background-color: #e6ba4b;
+  border-radius: 5px;
+  color: #0e0b0b;
+  padding: 10px 40px;
+  font-size: 25px;
+}
+@media screen and (max-width: 800px) {
+  #button .btn {
+    background-color: #b01e1e;
+    color: white;
+  }
+}
+
+#orange {
+  padding: 60px 0;
+}
+#orange .box {
+  position: relative;
+}
+#orange .box .minibox {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #110e0a;
+  transition: 2s;
+}
+#orange .box .minibox h1 {
+  color: #e08f25;
+}
+#orange .box .minibox:hover {
+  border-radius: 50px;
+  border: 5px solid #e08f25;
+}
+#orange .box .box3 {
+  position: absolute;
+  bottom: 90px;
+  right: 140px;
+}
+@media screen and (max-width: 600px) {
+  #orange .box .minibox {
+    background-color: #f0b541;
+    width: 50px;
+    height: 50px;
+  }
+  #orange .box .minibox h1 {
+    font-size: 9px;
+    color: white;
+  }
+}
+
+#darkblue {
+  padding: 150px 0 60px;
+}
+#darkblue .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background-color: #4c74bf;
+}
+#darkblue .box .minibox {
+  background-color: #2d559b;
+  width: 100px;
+  height: 100px;
+  transition: 2s;
+}
+#darkblue .box .minibox h1 {
+  color: white;
+  font-size: 18px;
+  margin: 40px;
+}
+#darkblue .box .minibox:hover {
+  width: 140px;
+  height: 140px;
+  padding: 20px;
+}
+
+#demo {
+  padding: 60px 0;
+}
+#demo .box {
+  display: flex;
+  justify-content: space-evenly;
+}
+#demo .box .minibox {
+  background-color: #835e90;
+  border: 5px solid #835e90;
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  transition: 2s;
+  padding: 10px;
+}
+#demo .box .minibox h1 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+#demo .box .minibox:hover {
+  position: relative;
+  background-color: #413c59;
+  border: 5px solid #835e90;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  #demo .box .minibox {
+    width: 100px;
+    height: 50px;
+    background-color: #6577eb;
+    border: 5px solid #6577eb;
+  }
+}
+@media screen and (max-width: 500px) {
+  #demo .box .minibox {
+    width: 50px;
+    height: 50px;
+    background-color: #31182a;
+    border: 5px solid #31182a;
+  }
+  #demo .box .minibox h1 {
+    font-size: 10px;
+  }
+}
+
+#brown {
+  padding: 60px 0;
+}
+#brown .box {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+#brown .box .minibox {
+  background-color: #8d6d3e;
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+  transition: 2s;
+  line-height: 162px;
+}
+#brown .box .minibox h1 {
+  color: white;
+  font-size: 20px;
+}
+#brown .box .minibox:hover {
+  border-radius: 40px;
+}
+@media screen and (max-width: 800px) {
+  #brown .box .minibox {
+    width: 50px;
+    height: 50px;
+    background-color: #c4d17d;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 790px) {
+  #brown .box {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+#text {
+  padding: 50px 0;
+}
+#text .box {
+  position: relative;
+}
+#text .box .minibox {
+  width: 300px;
+  height: 180px;
+  background-color: #5978b7;
+  margin: 15px 0;
+}
+#text .box .minibox h1 {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 80px;
+}
+#text .box .box5 {
+  position: absolute;
+  top: 765px;
+  left: 299px;
+}
+
+#greentext {
+  padding: 60px 0;
+}
+#greentext .box {
+  position: relative;
+}
+#greentext .box .minibox {
+  width: 300px;
+  height: 180px;
+  background-color: #7cb583;
+  margin: 15px 0;
+}
+#greentext .box .minibox h1 {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 80px;
+}
+#greentext .box .box2 {
+  position: absolute;
+  top: 180px;
+  left: 299px;
+}/*# sourceMappingURL=style.css.map */
